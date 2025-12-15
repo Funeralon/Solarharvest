@@ -21,7 +21,7 @@ public class DroneController : MonoBehaviour
     [Header("---- AUDIO ----")]
     public AudioClip sonPlantation;
     public AudioClip sonRecolte;
-    public AudioClip sonErreur; // Petit son si on n'a pas le niveau (optionnel)
+    public AudioClip sonErreur; 
     private AudioSource audioSource;
 
     // Variables internes
@@ -50,7 +50,7 @@ public class DroneController : MonoBehaviour
         controls.Player.Water.performed += ctx => StartWatering();
         controls.Player.Water.canceled += ctx => StopWatering();
 
-        // CHANGER DE GRAINE (NOUVEAU)
+        // CHANGER DE GRAINE 
         // On appuie sur TAB pour passer à la suivante
         controls.Player.SwitchSeed.performed += ctx => ChangerGraine();
     }

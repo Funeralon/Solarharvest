@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // Obligatoire pour utiliser TextMeshPro
+using TMPro; 
 
 public class ScoreManager : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class ScoreManager : MonoBehaviour
 
     void Awake()
     {
-        instance = this; // On dit "C'est moi le chef du score"
+        instance = this; 
     }
 
     public void AjouterPoint()

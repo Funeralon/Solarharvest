@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Nécessaire pour changer de scène
+using UnityEngine.SceneManagement; 
 using TMPro;
 
 public class MainMenuController : MonoBehaviour

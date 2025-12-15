@@ -17245,7 +17245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   flightHeight: 2
-  hoverForce: 4
+  hoverForce: 5
   grainesPrefabs:
   - {fileID: 2213143956693712780, guid: 5015fb976941da642a209189db25f9bd, type: 3}
   - {fileID: 2213143956693712780, guid: 2cc97bc547385dd4ea0d6c70b4d0d980, type: 3}

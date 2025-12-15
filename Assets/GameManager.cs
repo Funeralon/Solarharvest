@@ -123,14 +123,14 @@ public class GameManager : MonoBehaviour
         ecranFinPanel.SetActive(true);
         scoreFinalText.text = "Temps écoulé !\nScore Final : " + scoreActuel;
 
-        // --- CHANGEMENT DE MUSIQUE (ICI) ---
+        // --- CHANGEMENT DE MUSIQUE  ---
         if (musiqueDeFond != null && musiqueFin != null)
         {
-            musiqueDeFond.Stop();            // 1. On arrête la musique du potager
-            musiqueDeFond.clip = musiqueFin; // 2. On change le "CD"
-            musiqueDeFond.volume = 0.5f;     // (Sécurité volume)
-            musiqueDeFond.loop = false;      // 3. (Optionnel) False si tu veux qu'elle ne joue qu'une fois
-            musiqueDeFond.Play();            // 4. On lance la nouvelle
+            musiqueDeFond.Stop();            
+            musiqueDeFond.clip = musiqueFin; 
+            musiqueDeFond.volume = 0.5f;     
+            musiqueDeFond.loop = false;      
+            musiqueDeFond.Play();            
         }
 
         Time.timeScale = 0;
